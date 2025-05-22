@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Gym Management System
 
-A powerful and user-friendly **Windows Forms Application** built in C# to streamline the management of gym operations — from members and coaches to equipment and suppliers.
+A powerful and user-friendly **Windows Forms Application** built in C# to streamline the management of gym operations — from members and coaches to equipment and suppliers. This application integrates with a **SQL Server database** to ensure secure and efficient data handling.
 
 !Gym Management System Banner
 
@@ -8,7 +8,7 @@ A powerful and user-friendly **Windows Forms Application** built in C# to stream
 
 ## 🚀 Features
 
-- 👤 **User Authentication**: Secure login and registration system
+- 🔐 **User Authentication**: Secure login and registration system
 - 🧍 **Member Management**: Add, update, and track gym members
 - 🏋️ **Coach Management**: Assign and manage coaches
 - 🛠️ **Equipment Tracking**: Monitor gym equipment inventory
@@ -16,20 +16,30 @@ A powerful and user-friendly **Windows Forms Application** built in C# to stream
 - 📦 **Orders & Suppliers**: Handle gym supply orders and vendors
 - 👨‍💼 **Staff Management**: Manage gym staff and roles
 - 📊 **Owner Dashboard**: Overview of gym performance and operations
+
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language**: C#
 - **Framework**: .NET Framework (Windows Forms)
+- **Database**: SQL Server
 - **IDE**: Visual Studio
 - **UI**: WinForms Designer
 
 ---
 
-## 📸 Screenshots
+## 🗃️ Database Usage
 
-> _Add screenshots of your application here to showcase the UI._
+The system uses **SQL Server** to manage persistent data, including:
+
+- User credentials and roles
+- Member profiles and subscriptions
+- Coach assignments
+- Equipment inventory
+- Membership plans
+- Supplier and order records
+- Staff details
 
 ---
 
@@ -38,7 +48,8 @@ A powerful and user-friendly **Windows Forms Application** built in C# to stream
 ### Prerequisites
 
 - Visual Studio 2019 or later
-- .NET Framework (4.7.2 or compatible)
+- .NET Framework 4.7.2 or higher
+- SQL Server (Express or full version)
 
 ### Installation
 
