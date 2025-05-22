@@ -2,8 +2,6 @@
 
 A powerful and user-friendly **Windows Forms Application** built in C# to streamline the management of gym operations — from members and coaches to equipment and suppliers. This application integrates with a **SQL Server database** to ensure secure and efficient data handling.
 
-!Gym Management System Banner
-
 ---
 
 ## 🚀 Features
@@ -49,7 +47,7 @@ The system uses **SQL Server** to manage persistent data, including:
 
 - Visual Studio 2019 or later
 - .NET Framework 4.7.2 or higher
-- SQL Server (Express or full version)
+- SQL Server 
 
 ### Installation
 
