@@ -1,57 +1,22 @@
-# 🏋️‍♂️ Gym Management System
+# 🏋️ Gym Management System
 
-A powerful and user-friendly **Windows Forms Application** built in C# to streamline the management of gym operations — from members and coaches to equipment and suppliers. This application integrates with a **SQL Server database** to ensure secure and efficient data handling.
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![WinForms](https://img.shields.io/badge/UI-Windows%20Forms-0078D4?style=flat-square&logo=windows&logoColor=white)
 
----
+A Windows desktop application (C# / WinForms) for running a gym, built as a database course project.
 
-## 🚀 Features
+## ✨ Features
 
-- 🔐 **User Authentication**: Secure login and registration system
-- 🧍 **Member Management**: Add, update, and track gym members
-- 🏋️ **Coach Management**: Assign and manage coaches
-- 🛠️ **Equipment Tracking**: Monitor gym equipment inventory
-- 💳 **Membership Plans**: Create and manage subscription plans
-- 📦 **Orders & Suppliers**: Handle gym supply orders and vendors
-- 👨‍💼 **Staff Management**: Manage gym staff and roles
-- 📊 **Owner Dashboard**: Overview of gym performance and operations
+- 🔑 Login and registration, with separate **owner** and **member** menus
+- 👥 Manage **members**, **memberships**, **coaches** and **staff**
+- 🏷️ Manage **equipment**, **suppliers** and **orders**
 
----
+## 🧱 Tech stack
 
-## 🛠️ Tech Stack
+C# · .NET WinForms · relational database backend
 
-- **Language**: C#
-- **Framework**: .NET Framework (Windows Forms)
-- **Database**: SQL Server
-- **IDE**: Visual Studio
-- **UI**: WinForms Designer
+## 🚀 Getting started
 
----
-
-## 🗃️ Database Usage
-
-The system uses **SQL Server** to manage persistent data, including:
-
-- User credentials and roles
-- Member profiles and subscriptions
-- Coach assignments
-- Equipment inventory
-- Membership plans
-- Supplier and order records
-- Staff details
-
----
-
-## 🧰 Getting Started
-
-### Prerequisites
-
-- Visual Studio 2019 or later
-- .NET Framework 4.7.2 or higher
-- SQL Server 
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Aser-S/Gym-Management-System.git
-   ```
+1. Clone the repo and open `DatabaseProject.sln` in Visual Studio.
+2. Update the database connection string for your machine.
+3. Build and run (F5).
